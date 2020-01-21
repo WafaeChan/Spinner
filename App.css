@@ -1,0 +1,138 @@
+@import '~antd/dist/antd.css';
+.App {
+  background-image: url(https://picjumbo.com/wp-content/uploads/dark-wood-texture-2210x1475.jpg);
+  margin-top: -20px;
+}
+
+.appheader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.frame {
+  background:linear-gradient(45deg, rgb(189, 189, 189), rgb(231, 231, 231));
+  border-radius: 40px;
+  width: 850px;
+  height: 1220px;
+  margin: auto;
+  box-shadow: -30px 30px 30px rgb(14, 14, 14);
+  margin-top: 20px;
+  padding-top: 90px;
+}
+
+.appcontent {
+  width: 670px;
+  height: 1040px;
+  background: linear-gradient(45deg, rgb(31, 27, 21), rgb(80, 75, 67));
+  margin-left: 90px;
+}
+
+.camera {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(37, 36, 36);
+  margin-top: -60px;
+  margin-bottom: 20px;
+  margin-left: 405px;
+  border: 2px solid rgb(99, 99, 99);
+}
+
+.ipadbutton {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgb(199, 199, 199);
+  border: solid 4px rgb(202, 202, 202); 
+  box-shadow: -3px -3px 4px rgba(128, 128, 128, 0.664);
+  margin-left: 395px;
+  margin-bottom: -20px;
+  margin-top: 15px;
+
+}
+
+.movielist {
+  overflow-y: scroll;
+  max-height: 970px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(37, 36, 36); 
+  border-radius: 3px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #b1a58e; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d3c3a5;
+}
+
+.minrating {
+  margin-right: 50px;
+}
+
+.movieform input {
+  width: 360px;
+  max-height: 40px;
+  min-height: 40px;
+  border-radius: 10px;
+  background: linear-gradient(45deg, rgb(223, 208, 185), rgb(228, 224, 219));
+  font-size: 28px;
+  color: rgba(44, 32, 14, 0.733);
+  border: none;
+  transition: 0.4s ease-out;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+/* 
+.movieform {
+  width: 400px;
+    height: 350px;
+    color: rgb(70, 67, 59);
+    background: rgb(241,222,194);
+    background: linear-gradient(36deg, rgba(241,222,194,1) 0%, rgba(153,135,109,1) 52%, rgba(241,222,194,1) 100%);
+    font-size: 22px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 40px;
+} */
+
+.movieformcontainer Button{
+  background: rgb(133, 120, 101);
+    color:  rgb(241,222,194);
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px 10px;
+    min-width: 150px;
+    min-height: 50px;
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.movieformcontainer Button:hover{
+    background: rgb(214, 199, 175);
+    color:  rgb(129, 102, 61);
+}
+
+.movieformcontainer Button:active{
+  background: rgb(214, 199, 175);
+  color:  rgb(129, 102, 61);
+}
+
+.movieformcontainer Button:visited{
+  background: rgb(214, 199, 175);
+  color:  rgb(129, 102, 61);
+}
+
+.minrating {
+  color: rgb(214, 199, 175);
+}
